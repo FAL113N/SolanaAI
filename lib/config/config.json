@@ -1,0 +1,132 @@
+{
+    "fov": 320,
+    "sensitivity": 1.1,
+    "aim_height": 81,
+    "confidence": 0.52,
+    "triggerbot": {
+        "enabled": false,
+        "confidence": 0.4,
+        "fire_delay": 0.01,
+        "cooldown": 0.05,
+        "require_aimbot_key": false,
+        "keybind": 6,
+        "rapid_fire": true,
+        "shots_per_burst": 5
+    },
+    "keybind": "0x2",
+    "mouse_method": "hid",
+    "custom_resolution": {
+        "use_custom_resolution": false,
+        "x": 1920,
+        "y": 1080
+    },
+    "show_overlay": false,
+    "overlay_show_borders": false,
+    "circle_capture": false,
+    "account_settings": {
+        "discord": {
+            "alerts": {
+                "visible": true
+            }
+        }
+    },
+    "kalman": {
+        "use_kalman": true,
+        "kf_p": 100.0,
+        "kf_r": 0.17,
+        "kf_q": 50.0,
+        "kalman_frames_to_predict": 1.9,
+        "use_coupled_xy": true,
+        "alpha_with_kalman": 1.96
+    },
+    "overlay_shape": "square",
+    "show_debug_window": false,
+    "movement": {
+        "use_curves": true,
+        "curve_type": "B-Spline",
+        "movement_speed": 5.0,
+        "smoothing_enabled": false,
+        "smoothing_factor": 0.01,
+        "random_curves": false,
+        "curve_steps": 5,
+        "bezier_control_randomness": 0.051,
+        "spline_smoothness": 0.10200000000000001,
+        "catmull_tension": 0.10300000000000001,
+        "exponential_decay": 2.02,
+        "hermite_tangent_scale": 0.303,
+        "sine_frequency": 1.51,
+        "aimlock_mode": true
+    },
+    "model": {
+        "available_models": [],
+        "model_path": "C:/Users/Omid-/Desktop/Cuda version/model/sunxds_0.7.8.engine",
+        "use_tensorrt": true,
+        "selected_model": "C:/Users/Omid-/Desktop/Cuda version/model/sunxds_0.7.8.engine",
+        "auto_detect": false,
+        "model_confidence_override": 0.3,
+        "model_iou_override": 0.1
+    },
+    "hotkeys": {
+        "stream_proof_key": "0x79",
+        "menu_toggle_key": "0x70",
+        "stream_proof_enabled": false,
+        "menu_visible": true
+    },
+    "anti_recoil": {
+        "enabled": false,
+        "strength": 4.0,
+        "reduce_bloom": true,
+        "require_target": true,
+        "require_keybind": true
+    },
+    "flickbot": {
+        "enabled": false,
+        "keybind": 6,
+        "flick_speed": 1.5,
+        "flick_delay": 0.082,
+        "cooldown": 0.1,
+        "auto_fire": false,
+        "return_to_origin": true,
+        "smooth_flick": false
+    },
+    "controller": {
+        "enabled": false,
+        "sensitivity": 0.1,
+        "deadzone": 0.05,
+        "vibration": true,
+        "trigger_threshold": 0.1,
+        "aim_stick": "both",
+        "activation_button": "left_trigger",
+        "auto_switch": false,
+        "hold_to_aim": true,
+        "button_mappings": {
+            "y_action": "Decrease Sensitivity",
+            "x_action": "None",
+            "b_action": "None",
+            "combo_action": "None"
+        }
+    },
+    "target_lock": {
+        "enabled": true,
+        "min_lock_duration": 0.1,
+        "max_lock_duration": 8.0,
+        "distance_threshold": 300,
+        "reacquire_timeout": 8.0,
+        "smart_switching": false,
+        "preference": "closest",
+        "multi_target": false,
+        "max_targets": 1,
+        "sticky_aim": false,
+        "prediction": false,
+        "ignore_downed": false,
+        "switch_cooldown": 8.0,
+        "max_range": 351
+    },
+    "mouse_fov": {
+        "mouse_fov_width": 23,
+        "mouse_fov_height": 23,
+        "use_separate_fov": true
+    },
+    "dpi": 651,
+    "mouse_sensitivity": 1.0
+}
